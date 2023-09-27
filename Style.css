@@ -1,0 +1,38 @@
+body {
+margin: 0;
+}
+
+
+.icon {
+    background-color: rgb(218, 7, 88);
+    padding-bottom: 5px;
+    display: flex;
+}
+
+.icon img {
+    padding-left: 100px;
+    padding-top: 3px;
+}
+
+
+
+.zoekbalk {
+   
+    background-color: rgb(255, 255, 255);
+    max-height: 40px;
+    margin: auto;
+   padding-left: 120px;
+   padding-right: 120px;
+    border-radius: 20px;
+}
+
+.zoekbalk p {
+    margin: auto;
+    padding-top: 10px;
+   padding-bottom: 10px;
+   opacity: 0.6;
+}
+
+.zoekbalk img {
+   position: relative;
+}
