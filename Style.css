@@ -36,3 +36,50 @@ margin: 0;
 .zoekbalk img {
    position: relative;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+}
+li {
+    float: left;
+} 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: blue;
+}
+.active {
+    background-color: green;
+}
+.Hoofdpagina {
+    text-align: center;
+}
+.Producten {
+    text-align: left;
+}
+.Contacten {
+    text-align: center;
+}
+.Bestellen {
+    text-align: center;
+    margin-top: 100px;
+}
+.Plaatje1 {
+    float: right;
+    margin-top: -100px;
+}
+.plaatje2 {
+    float: right;
+}
+.plaatje3 {
+    margin-top: -100px;
+}
