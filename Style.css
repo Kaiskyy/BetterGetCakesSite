@@ -1,85 +1,18 @@
-body {
-margin: 0;
-}
-
-
-.icon {
-    background-color: rgb(218, 7, 88);
-    padding-bottom: 5px;
-    display: flex;
-}
-
-.icon img {
-    padding-left: 100px;
-    padding-top: 3px;
-}
-
-
-
-.zoekbalk {
-   
-    background-color: rgb(255, 255, 255);
-    max-height: 40px;
-    margin: auto;
-   padding-left: 120px;
-   padding-right: 120px;
-    border-radius: 20px;
-}
-
-.zoekbalk p {
-    margin: auto;
-    padding-top: 10px;
-   padding-bottom: 10px;
-   opacity: 0.6;
-}
-
-.zoekbalk img {
-   position: relative;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: red;
-}
-li {
-    float: left;
-} 
-li a {
-    display: block;
-    color: white;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');*{ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    color:#fff;
+    line-height: 1.5;
+    letter-spacing: 1px;
 }
-li a:hover:not(.active) {
-    background-color: blue;
-}
-.active {
-    background-color: green;
-}
-.Hoofdpagina {
-    text-align: center;
-}
-.Producten {
-    text-align: left;
-}
-.Contacten {
-    text-align: center;
-}
-.Bestellen {
-    text-align: center;
-    margin-top: 100px;
-}
-.Plaatje1 {
-    float: right;
-    margin-top: -100px;
-}
-.plaatje2 {
-    float: right;
-}
-.plaatje3 {
-    margin-top: -100px;
+.wrapper{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(achtergrond.jpg);
+background-position: center; 
+background-repeat: no-repeat; 
+background-size: cover;
 }
