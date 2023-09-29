@@ -1,0 +1,89 @@
+body {
+margin: 0;
+}
+
+
+/*bovenste balk items*/
+
+.icon {
+    background-color: rgb(218, 7, 88);
+    padding-bottom: 5px;
+    display: flex;
+}
+
+.icon img {
+    padding-left: 100px;
+    padding-top: 3px;
+}
+
+
+
+.zoekbalk {
+   
+    background-color: rgb(255, 255, 255);
+    max-height: 45px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.zoekbalk input {
+    margin: auto;
+  padding-right: 165px;
+  padding-left: 10px;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+   font-family: 'Figtree', sans-serif;
+}
+
+.zoekbalk input::after {
+    content: "\1F50D";
+}
+
+.zoekbalk img {
+    margin-left: -125px;
+    margin-bottom:  -4px;
+}
+
+.zoekbalk p::after {
+    content: "\1F50D";
+    margin-left: 150px;
+}
+
+
+/*nav bar*/
+
+.nav-bar ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: rgb(255, 226, 231);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 8%;
+    font-family: 'Figtree', sans-serif;
+color: black;
+}
+
+.nav-bar {
+margin-top: -16px;
+}
+
+.nav-bar li:hover {
+background-color: rgb(254, 254, 254);
+padding-top: 8px;
+padding-bottom: 8px;
+margin-top: -9px;
+margin-bottom: -9px;
+padding-right: 4px;
+padding-left: 4px;
+transition: 0.8s;
+border-radius: 8px;
+}
+
+/*body images*/
+
