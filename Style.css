@@ -16,3 +16,88 @@ background-position: center;
 background-repeat: no-repeat; 
 background-size: cover;
 }
+body {
+    margin: 0;
+    }
+    
+    
+    .icon {
+        background-color: rgb(218, 7, 88);
+        padding-bottom: 5px;
+        display: flex;
+    }
+    
+    .icon img {
+        padding-left: 100px;
+        padding-top: 3px;
+    }
+    
+    
+    
+    .zoekbalk {
+       
+        background-color: rgb(255, 255, 255);
+        max-height: 40px;
+        margin: auto;
+       padding-left: 120px;
+       padding-right: 120px;
+        border-radius: 20px;
+    }
+    
+    .zoekbalk p {
+        margin: auto;
+        padding-top: 10px;
+       padding-bottom: 10px;
+       opacity: 0.6;
+    }
+    
+    .zoekbalk img {
+       position: relative;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: red;
+    }
+    li {
+        float: left;
+    } 
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover:not(.active) {
+        background-color: blue;
+    }
+    .active {
+        background-color: green;
+    }
+    .Hoofdpagina {
+        text-align: center;
+    }
+    .Producten {
+        text-align: left;
+    }
+    .Contacten {
+        text-align: center;
+    }
+    .Bestellen {
+        text-align: center;
+        margin-top: 100px;
+    }
+    .Plaatje1 {
+        float: right;
+        margin-top: -100px;
+    }
+    .plaatje2 {
+        float: right;
+    }
+    .plaatje3 {
+        margin-top: -100px;
+    }
