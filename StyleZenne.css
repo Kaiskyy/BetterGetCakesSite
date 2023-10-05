@@ -106,3 +106,8 @@ border-radius: 8px;
 .Plaatje3 {
     text-align: center;
 }
+
+.Plaatje4 {
+    text-align: center;
+    display: row;
+}
