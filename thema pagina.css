@@ -21,7 +21,7 @@ body{
 }
 .wrapper{
     width: 800px;
-    height: 600px;
+    height: 410px;
     display: flex;
     animation: slide 16s infinite;
 }
