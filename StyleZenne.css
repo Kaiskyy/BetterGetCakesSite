@@ -1,5 +1,6 @@
 body {
 margin: 0;
+background-color: rgb(255, 201, 226);
 }
 
 
@@ -87,31 +88,56 @@ border-radius: 8px;
 
 /*body images*/
 
-.Producten {
+.header-text-2 {
     text-align: center;
+margin: 0px auto;
+    font-family: 'Figtree', sans-serif;
+    background-color: rgb(255, 192, 222);
+    max-width: 600px;
+    margin-top: 55px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 10px;
+  text-shadow: 15px black;
 }
 
-.Contacten {
-    text-align: center;
-}
 
-.Bestellen {
-    text-align: center;
-}
+.parent { height: 450px; width: 710px; overflow: hidden;}
+      .element {float: left; height: 500px; width: 716px; backgroundcolor: grey; }
+      .slides {width: calc(716px * 4); animation: slideShow 10s ease infinite;}
+      .images {width: 100%; height: 100%;}
+      @keyframes slideShow {
+         20% {margin-left: 0px;}
+         40% {margin-left: calc(-716px * 1);}
+         60% {margin-left: calc(-716px * 2);}
+         80% {margin-left: calc(-716px * 3);}
+      } 
 
-.Plaatje1 {
-    text-align: center;
-}
+      .parent {
+       margin-left: 30px;
+        margin-top: 100px;
+        border: 6px solid rgb(255, 255, 255);
+        border-radius: 10px;
+      }
 
-.Plaatje2 {
-    text-align: center;
-}
 
-.Plaatje3 {
-    text-align: center;
-}
+      /*introductie-text*/
 
-.Plaatje4 {
-    text-align: center;
-    display: row;
-}
+      .introductie-text {
+        max-width: 650px;
+        display: flex;
+        float:right;
+        margin-top: 145px;
+        margin-right: 150px;
+        font-size: 1.6rem;
+        font-family: 'Figtree', sans-serif;
+        letter-spacing: 2px;
+        line-height: 35px;
+        background-color: rgb(255, 192, 222);
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: -6px;
+        padding-bottom: -6px;
+        border-radius: 10px;
+
+      }
