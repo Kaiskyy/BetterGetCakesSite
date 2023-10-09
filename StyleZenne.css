@@ -153,12 +153,12 @@ margin: 0px auto;
       /*introductie-text*/
 
       .introductie-text {
-        max-width: 650px;
+        max-width: 500px;
         display: flex;
         float:right;
         margin-top: 145px;
         margin-right: 150px;
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         font-family: 'Figtree', sans-serif;
         letter-spacing: 2px;
         line-height: 35px;
