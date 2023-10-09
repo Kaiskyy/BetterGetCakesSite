@@ -1,6 +1,6 @@
 body {
 margin: 0;
-background-color: rgb(255, 201, 226);
+background-color: rgb(251, 211, 230);
 }
 
 
@@ -122,16 +122,22 @@ border-radius: 8px;
 margin: 0px auto;
     font-family: 'Figtree', sans-serif;
     background-color: rgb(255, 192, 222);
-    max-width: 600px;
+    max-width: 850px;
     margin-top: 55px;
     padding-top: 6px;
     padding-bottom: 6px;
     border-radius: 10px;
   text-shadow: 15px black;
+  font-size: 1.8rem;
+}
+
+.header-text-2 h1 {
+    font-weight: normal;
+    opacity: 0.9;
 }
 
 
-.parent { height: 450px; width: 710px; overflow: hidden;}
+.parent { height: 30%; width: 28%; overflow: hidden;}
       .element {float: left; height: 500px; width: 716px; backgroundcolor: grey; }
       .slides {width: calc(716px * 4); animation: slideShow 10s ease infinite;}
       .images {width: 100%; height: 100%;}
@@ -143,8 +149,8 @@ margin: 0px auto;
       } 
 
       .parent {
-       margin-left: 30px;
-        margin-top: 100px;
+       margin-left: 10%;
+        margin-top: 7%;
         border: 6px solid rgb(255, 255, 255);
         border-radius: 10px;
       }
@@ -153,12 +159,12 @@ margin: 0px auto;
       /*introductie-text*/
 
       .introductie-text {
-        max-width: 500px;
+        max-width: 650px;
         display: flex;
         float:right;
         margin-top: 145px;
         margin-right: 150px;
-        font-size: 1.3rem;
+        font-size: 1.6rem;
         font-family: 'Figtree', sans-serif;
         letter-spacing: 2px;
         line-height: 35px;
@@ -168,5 +174,5 @@ margin: 0px auto;
         padding-top: -6px;
         padding-bottom: -6px;
         border-radius: 10px;
-
+        opacity: 0.9;
       }
