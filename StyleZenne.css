@@ -88,6 +88,35 @@ border-radius: 8px;
 
 /*body images*/
 
+.Producten {
+    text-align: center;
+}
+
+.Contacten {
+        text-align: center;
+    }
+    
+.Bestellen {
+        text-align: center;
+    }
+    
+.Plaatje1 {
+        text-align: center;
+    }
+    
+.Plaatje2 {
+        text-align: center;
+    }
+    
+.Plaatje3 {
+        text-align: center;
+    }
+    
+.Plaatje4 {
+        text-align: center;
+        display: row;
+    }
+
 .header-text-2 {
     text-align: center;
 margin: 0px auto;
